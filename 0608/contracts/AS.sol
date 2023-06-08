@@ -2,9 +2,13 @@
 pragma solidity ^0.8.19;
 
 contract ADD {
-  uint d=10;
+  uint aa=10;
   function add(uint a, uint b) public pure returns(uint) {
     return a+b;
+  }
+
+  function setA(uint _a) public {
+    aa = _a;
   }
 }
 
