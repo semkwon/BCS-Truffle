@@ -6,3 +6,9 @@ contract ADD {
     return a+b;
   }
 }
+
+contract SUB {
+  function sub(uint a, uint b) public pure returns(uint) {
+    return a-b;
+  }
+}
