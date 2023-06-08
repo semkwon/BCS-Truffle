@@ -1,7 +1,7 @@
 const A = artifacts.require("ADD");
-const B = artifacts.require("SUB");
+// const B = artifacts.require("SUB");
 
 module.exports = function (deployer) {
   deployer.deploy(A);
-  deployer.deploy(B);
+  // deployer.deploy(B);
 };
